@@ -8,66 +8,75 @@ Hojas de estilo CSS
 Imágenes
 Este ejercicio permitirá comprender cómo un servidor procesa peticiones y sirve contenido estático de manera eficiente.
 
-## Getting Started
+## Getting Started 🚀
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+Las siguientes instrucciones le permitirán obtener una copia del proyecto en funcionamiento en su máquina local para fines de desarrollo y prueba.
 
-### Prerequisites
-
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
-
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
+### Requisitos
 
 * [Maven](https://maven.apache.org/) - Dependency Management
 * [ROME]([https://rometools.github.io/rome/](https://html5boilerplate.com/) - Used to generate RSS Feeds
 * [JQery]([https://maven.apache.org/](https://jquery.com/) - Dependency Management
 * [JavaScript]([https://html5boilerplate.com/](https://nodejs.org/)) - Used to generate RSS Feeds
+
+```
+Give examples
+```
+
+### Instalación 📦
+
+Realice los siguientes pasos para clonar el proyecto en su máquina local.
+
+```
+git clone https://github.com/Pau993/Taller01.git
+cd AREP/
+git checkout Taller01
+```
+
+### Ejecutando la aplicación
+
+Para ejecutar la aplicación, ejecute el siguiente comando:
+
+```
+mvn clean compile
+mvn exec:java '-Dexec.mainClass=edu.eci.arep.App'
+```
+
+El anterior comando limpiará las contrucciones previas, compilará y empaquetará el código en un jar y luego ejecutará la aplicación.
+
+Diríjase a su navegador de preferencia y vaya a la siguiente dirección: http://localhost:35000/ para ver la aplicación en funcionamiento.
+
+## Running the tests
+
+Explain how to run the automated tests for this system
+
+### Ejecutando las pruebas
+
+Para ejecutar las pruebas, ejecute el siguiente comando:
+
+```
+mvn test
+```
+
+
+## Descripción de la aplicación 📖
+
+La aplicación web diseñado como una plataforma visualmente atractiva y funcional, ideal para explorar y gestionar diversos archivos. Su objetivo es proporcionar una interfaz intuitiva y moderna que permita a los usuarios interactuar con elementos como JavaScript, CSS, HTML e imágenes de manera rápida y sencilla. La aplicación combina un diseño elegante con animaciones suaves y una experiencia de usuario optimizada.
+
+## Características principales: 
+
+1. Interfaz moderna y responsiva:
+
+* Un diseño minimalista con un esquema de colores que incluye degradados de tonos morados, creando una experiencia visual sofisticada.
+* Totalmente adaptable a diferentes dispositivos gracias a su diseño responsivo.
+  
+2. Gestión de archivos:
+
+* Incluye botones interactivos que permiten abrir y visualizar archivos clave como:
+* Archivos JavaScript (script.js).
+* Hojas de estilo CSS (estilos.css).
+* Documentos HTML (index.html).
+* Imágenes (Chill.jpg).
 
 ## Contributing
 
