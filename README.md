@@ -78,13 +78,10 @@ La aplicación web diseñado como una plataforma visualmente atractiva y funcion
 * Documentos HTML (index.html).
 * Imágenes (Chill.jpg).
 
-## Contributing
+## Muestra de la aplicación
 
 ![image](https://github.com/user-attachments/assets/85381b19-1d0d-492a-8a35-380d17db9219)
 
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
 
 ## Authors
 
