@@ -8,7 +8,7 @@ Hojas de estilo CSS
 Imágenes
 Este ejercicio permitirá comprender cómo un servidor procesa peticiones y sirve contenido estático de manera eficiente.
 
-## Getting Started 🚀
+## Comenzando 🚀
 
 Las siguientes instrucciones le permitirán obtener una copia del proyecto en funcionamiento en su máquina local para fines de desarrollo y prueba.
 
