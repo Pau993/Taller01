@@ -46,11 +46,7 @@ El anterior comando limpiará las contrucciones previas, compilará y empaquetar
 
 Diríjase a su navegador de preferencia y vaya a la siguiente dirección: http://localhost:35000/ para ver la aplicación en funcionamiento.
 
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Ejecutando las pruebas
+## Ejecutando las pruebas
 
 Para ejecutar las pruebas, ejecute el siguiente comando:
 
