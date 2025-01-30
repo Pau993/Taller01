@@ -20,7 +20,7 @@ public class HttpServer {
         }
     }
 
-    private static void handleRequest(Socket clientSocket) {
+    static void handleRequest(Socket clientSocket) {
         try (BufferedReader in = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()));
              PrintWriter out = new PrintWriter(clientSocket.getOutputStream(), true);
              OutputStream dataOut = clientSocket.getOutputStream()) {
@@ -71,7 +71,7 @@ public class HttpServer {
         }
     }
 
-    private static void handleApiRequest(String path, PrintWriter out) {
+    static void handleApiRequest(String path, PrintWriter out) {
         if (path.equals("/api/saludo")) {
             sendResponse(out, 200, "OK", "{\"mensaje\": \"¡Hola desde el servidor!\"}");
         } else if (path.equals("/api/fecha")) {
@@ -81,7 +81,7 @@ public class HttpServer {
         }
     }
 
-    private static void handleApiPostRequest(String path, BufferedReader in, PrintWriter out) throws IOException {
+    static void handleApiPostRequest(String path, BufferedReader in, PrintWriter out) throws IOException {
         if (path.startsWith("/api/enviar")) {
             StringBuilder body = new StringBuilder();
             String line;
