@@ -12,7 +12,7 @@ Este ejercicio permitirá comprender cómo un servidor procesa peticiones y sirv
 
 Las siguientes instrucciones le permitirán obtener una copia del proyecto en funcionamiento en su máquina local para fines de desarrollo y prueba.
 
-### Requisitos
+### Requisitos ⚙️
 
 * [Maven](https://maven.apache.org/) - Dependency Management
 * [ROME]([https://rometools.github.io/rome/](https://html5boilerplate.com/) - Used to generate RSS Feeds
@@ -33,7 +33,7 @@ cd AREP/
 git checkout Taller01
 ```
 
-### Ejecutando la aplicación
+### Ejecutando la aplicación ⚙️
 
 Para ejecutar la aplicación, ejecute el siguiente comando:
 
@@ -46,7 +46,7 @@ El anterior comando limpiará las contrucciones previas, compilará y empaquetar
 
 Diríjase a su navegador de preferencia y vaya a la siguiente dirección: http://localhost:35000/ para ver la aplicación en funcionamiento.
 
-## Ejecutando las pruebas
+## Ejecutando las pruebas ⚙️
 
 Para ejecutar las pruebas, ejecute el siguiente comando:
 
@@ -59,14 +59,14 @@ mvn test
 
 La aplicación web diseñado como una plataforma visualmente atractiva y funcional, ideal para explorar y gestionar diversos archivos. Su objetivo es proporcionar una interfaz intuitiva y moderna que permita a los usuarios interactuar con elementos como JavaScript, CSS, HTML e imágenes de manera rápida y sencilla. La aplicación combina un diseño elegante con animaciones suaves y una experiencia de usuario optimizada.
 
-## Características principales: 
+## Características principales: ⚙️
 
 1. Interfaz moderna y responsiva:
 
 * Un diseño minimalista con un esquema de colores que incluye degradados de tonos morados, creando una experiencia visual sofisticada.
 * Totalmente adaptable a diferentes dispositivos gracias a su diseño responsivo.
   
-2. Gestión de archivos:
+2. Gestión de archivos: ⚙️
 
 * Incluye botones interactivos que permiten abrir y visualizar archivos clave como:
 * Archivos JavaScript (script.js).
@@ -74,19 +74,19 @@ La aplicación web diseñado como una plataforma visualmente atractiva y funcion
 * Documentos HTML (index.html).
 * Imágenes (Chill.jpg).
 
-## Muestra de la aplicación
+## Muestra de la aplicación 🧩
 
 ![image](https://github.com/user-attachments/assets/85381b19-1d0d-492a-8a35-380d17db9219)
 
 
-## Authors
+## Autores ✒️
 
 * **Paula Natalia Paez Vega* - *Initial work* - [PurpleBooth](https://github.com/Paulinguis993)
 
-## License
+## Licencia 📄
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
-## Agradecimientos
+## Agradecimientos 🎁
 
 Agradecimientos al profeso Daniel Benavides por brindarme sus conocimientos.
