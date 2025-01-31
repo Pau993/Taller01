@@ -15,7 +15,7 @@ Las siguientes instrucciones le permitirán obtener una copia del proyecto en fu
 ### Requisitos ⚙️
 
 * [Maven](https://maven.apache.org/) - Dependency Management
-* [JavaScript]([https://html5boilerplate.com/](https://nodejs.org/)
+* [JavaScript](https://nodejs.org/)
 * [Java](https://www.java.com/es/)
 
 ```
