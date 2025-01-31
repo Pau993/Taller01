@@ -5,6 +5,10 @@ import java.net.*;
 import java.nio.file.*;
 import java.util.*;
 
+/**
+ *   @author Paula Paez
+ */
+
 public class HttpServer {
     private static final int PORT = 35000;
     private static final String BASE_DIRECTORY = "src/main/resources/Files";
@@ -20,6 +24,10 @@ public class HttpServer {
         }
     }
 
+    /**
+     * 
+     * @param clientSocket
+     */
     static void handleRequest(Socket clientSocket) {
         try (BufferedReader in = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()));
              PrintWriter out = new PrintWriter(clientSocket.getOutputStream(), true);
@@ -50,6 +58,13 @@ public class HttpServer {
         }
     }
 
+    /**
+     * 
+     * @param path
+     * @param out
+     * @param dataOut
+     * @throws IOException
+     */
     private static void serveStaticFile(String path, PrintWriter out, OutputStream dataOut) throws IOException {
         String filePath = BASE_DIRECTORY + (path.equals("/") ? "/index.html" : path);
         File file = new File(filePath);
@@ -71,6 +86,11 @@ public class HttpServer {
         }
     }
 
+    /**
+     * 
+     * @param path
+     * @param out
+     */
     static void handleApiRequest(String path, PrintWriter out) {
         if (path.equals("/api/saludo")) {
             sendResponse(out, 200, "OK", "{\"mensaje\": \"¡Hola desde el servidor!\"}");
@@ -81,6 +101,13 @@ public class HttpServer {
         }
     }
 
+    /**
+     * 
+     * @param path
+     * @param in
+     * @param out
+     * @throws IOException
+     */
     static void handleApiPostRequest(String path, BufferedReader in, PrintWriter out) throws IOException {
         if (path.startsWith("/api/enviar")) {
             StringBuilder body = new StringBuilder();
@@ -95,6 +122,13 @@ public class HttpServer {
         }
     }
 
+    /**
+     * 
+     * @param out
+     * @param statusCode
+     * @param statusMessage
+     * @param body
+     */
     private static void sendResponse(PrintWriter out, int statusCode, String statusMessage, String body) {
         out.printf("HTTP/1.1 %d %s\r\n", statusCode, statusMessage);
         out.println("Content-Type: application/json");

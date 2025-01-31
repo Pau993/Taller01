@@ -19,6 +19,10 @@ class HttpServerTest {
         writer = new PrintWriter(outputStream, true);
     }
 
+    /**
+     * Prueba para verificar que la solicitud a la ruta "/api/saludo" devuelve una respuesta HTTP 200 OK
+     * y contiene el mensaje esperado en el cuerpo de la respuesta.
+     */
     @Test
     void testHandleApiRequestSaludo() {
         HttpServer.handleApiRequest("/api/saludo", writer);
@@ -27,6 +31,10 @@ class HttpServerTest {
         assertTrue(response.contains("{\"mensaje\": \"¡Hola desde el servidor!\"}"));
     }
 
+    /**
+     * Prueba para verificar que la solicitud a la ruta "/api/fecha" devuelve una respuesta HTTP 200 OK
+     * y contiene la fecha en el cuerpo de la respuesta.
+     */
     @Test
     void testHandleApiRequestFecha() {
         HttpServer.handleApiRequest("/api/fecha", writer);
@@ -35,6 +43,9 @@ class HttpServerTest {
         assertTrue(response.contains("\"fecha\":"));
     }
 
+    /**
+     * Prueba para verificar que la solicitud a una ruta desconocida devuelve una respuesta HTTP 404 Not Found.
+     */
     @Test
     void testHandleApiRequestNotFound() {
         HttpServer.handleApiRequest("/api/desconocido", writer);
@@ -42,6 +53,10 @@ class HttpServerTest {
         assertTrue(response.contains("HTTP/1.1 404 Not Found"));
     }
 
+    /**
+     * Prueba para verificar que una solicitud POST con un cuerpo JSON se maneja correctamente.
+     * @throws IOException si ocurre un error de entrada/salida.
+     */
     @Test
     void testHandleApiPostRequest() throws IOException {
         String input = "{\"mensaje\":\"Hola\"}";
