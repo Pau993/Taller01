@@ -12,11 +12,11 @@ Este ejercicio permitirá comprender cómo un servidor procesa peticiones y sirv
 
 Las siguientes instrucciones le permitirán obtener una copia del proyecto en funcionamiento en su máquina local para fines de desarrollo y prueba.
 
-### Requisitos ⚙️
+### Tecnologías usadas ⚙️
 
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [JavaScript](https://nodejs.org/)
-* [Java](https://www.java.com/es/)
+* [Maven](https://maven.apache.org/) 📦: Gestor de dependencias y automatización de construcción para Java.
+* [JavaScript](https://nodejs.org/) 🌐: Lenguaje de programación para interactividad en la web.
+* [Java](https://www.java.com/es/) ☕: Lenguaje de programación robusto para backend y aplicaciones empresariales.
 
 ```
 Give examples
