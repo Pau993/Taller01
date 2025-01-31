@@ -15,9 +15,8 @@ Las siguientes instrucciones le permitirán obtener una copia del proyecto en fu
 ### Requisitos ⚙️
 
 * [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME]([https://rometools.github.io/rome/](https://html5boilerplate.com/) - Used to generate RSS Feeds
-* [JQery]([https://maven.apache.org/](https://jquery.com/) - Dependency Management
-* [JavaScript]([https://html5boilerplate.com/](https://nodejs.org/)) - Used to generate RSS Feeds
+* [JavaScript]([https://html5boilerplate.com/](https://nodejs.org/)
+* [Java](https://www.java.com/es/)
 
 ```
 Give examples
